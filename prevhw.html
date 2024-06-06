@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Styles -->
+    <link rel="stylesheet" href="./styles/stlye.css">
+    <link rel="stylesheet" href="./styles/slider.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/keen-slider@6.8.5/keen-slider.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/keen-slider@6.8.5/keen-slider.min.css" />
+    <!-- Imports (fa, fonts, etc) - replace kit id -->
+    <!-- <script src="https://kit.fontawesome.com/_replace-kitid__" crossorigin="anonymous"></script> -->
+    <!-- Scripts -->
+    <script src="script.js" defer></script>
+    <title>HeatWave Esports</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <nav class="side-nav">
+            <div id="side-nav-content">
+                <a href="#"><img src="/media/icons/discord-icon-svgrepo-com.svg" alt="Discord Logo"></a>
+                <a href="https://www.instagram.com/heatw_esports/"><img src="media/icons/instagram-svgrepo-com.svg"
+                        alt="Instagram Logo"></a>
+                <a href="https://www.tiktok.com/@heatwave_e"><img src="/media/icons/tiktok-svgrepo-com.svg"
+                        alt="Tiktok Logo"></a>
+                <a href="https://www.twitch.tv/heatwavesports"><img src="/media/icons/twitch-svgrepo-com.svg"
+                        alt="Twitch Logo"></a>
+                <a href="https://twitter.com/heatwave_e"><img src="/media/icons/twitter-svgrepo-com.svg"
+                        alt="Twitter Logo"></a>
+                <a href="https://www.twitch.tv/heatwavesports"><img src="/media/icons/youtube-svgrepo-com.svg"
+                        alt="Youtube Logo"></a>
+            </div>
+        </nav>
+        <nav class="top-nav">
+            <div id="top-nav-content">
+                <a href="#home"><img src="/media/logos/Logo.png" alt="HeatWave Esports Logo"></a>
+                <a href="">NEWS</a>
+                <a href="">MATCHES</a>
+                <a href="">EVENTS</a>
+                <a href="">ABOUT US</a>
+                <a href="">PARTNERSHIP</a>
+                <a href="">FOLLOW US</a>
+            </div>
+        </nav>
+    </div>
+    <main class="main-body">
+        <div class="hero-header">
+            <header> HeatWave Esports</header>
+            <img src="/media/logos/Logo.png" alt="HeatWave Esports Logo">
+            <button class="hero-button2">Follow Us!<span class="arrow"></span>
+            </button>
+        </div>
+        <div class="roster-brief">
+            <h2>Our Rosters</h2>
+            <div id="my-keen-slider" class="keen-slider">
+                <div class="keen-slider__slide number-slide1"><a href="#">
+                        <img src="./media/logos/64b9c9ba553ad5cdddb97dd0_Game=CS.webp">
+                    </a></div>
+                <div class="keen-slider__slide number-slide2"><a href="#">
+                        <img src="./media/logos/64b9c9ba553ad5cdddb97dc2_Game=R6.webp">
+                    </a></div>
+                <div class="keen-slider__slide number-slide3"><a href="#">
+                        <img src="./media/logos/64b9c9ba553ad5cdddb97dc8_Game=Rocket League.webp">
+                    </a>
+                </div>
+                <div class="keen-slider__slide number-slide4"><a href="#">
+                        <img src="./media/logos/64b9c9ba553ad5cdddb97dcc_Game=LOL.webp">
+                    </a></div>
+                <div class="keen-slider__slide number-slide5"><a href="#">
+                        <img src="./media/logos/64b9c9ba553ad5cdddb97dca_Game=Valorant.webp">
+                    </a>></div>
+            </div>
+            <script src="https://cdn.jsdelivr.net/npm/keen-slider@6.8.5/keen-slider.min.js"></script>
+            <script>
+                var slider = new KeenSlider("#my-keen-slider", {
+                    loop: true,
+                    mode: "free-snap",
+                    slides: {
+                        perView: 3,
+                        spacing: 15,
+                    },
+                })
+            </script>
+    </main>
+    <footer class="page-footer">
+        <div class="popular-container">
+            <h3>Popular</h3>
+            <div>
+                <a href="">News</a><br>
+                <a href="">Matches</a><br>
+                <a href="">Events</a><br>
+                <a href="">About Us </a><br>
+                <a href="">Follow Us</a><br>
+                <a href="">Partnerships</a>
+            </div>
+        </div>
+        <div class="support-container">
+            <h3>Support</h3>
+        </div>
+    </footer>
+</body>
+
+</html>

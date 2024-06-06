@@ -1,0 +1,9 @@
+/*  */
+.random{
+  /* Gradient Text Effect */
+  background: linear-gradient(93.78deg, #6AC8F1 -9.42%, #E2E2E6 32.43%, #26C6DA 98.16%);
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+
