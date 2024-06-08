@@ -1,0 +1,67 @@
+.roster-brief{
+    margin: 6rem 0 0 0;
+    /* padding: 0 0 2rem .5rem; */
+}
+
+.roster-brief > h2{
+    font-size: 2rem;
+    background: radial-gradient(circle, rgb(255, 255, 255), #3ab2f8);
+    filter: drop-shadow(10px 0px 20px #a3eaff);
+    background-clip: text;
+    color: transparent;
+    animation: header-grad 8s ease-in-out infinite; 
+    /* ^ global.css header-animation */
+    background-size: 200% 200%;
+    padding-left: 1rem;
+}
+.roster-brief> 
+
+.keen-slider{
+    padding-left: 1rem;
+    width: 90%;
+    height: 100%;
+}
+
+.keen-slider__slide > img{
+    height: fit-content;
+    width: 70%;
+}
+
+.keen-slider__slide > a {
+    opacity: 75%;
+    transition: all 300ms ease-in-out;
+}
+.keen-slider__slide > a:hover {
+    opacity: 100%;
+    filter: drop-shadow(0px 0px 30px #6f6f6f);
+}
+
+[class^="number-slide"],
+[class*=" number-slide"] {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10rem;
+    padding: 60px;
+    background: rgb(162,162,162);
+    background: radial-gradient(circle, rgb(65, 65, 65) 0%, rgba(0,0,0,1) 100%);
+    border-radius: 2rem;
+}
+
+.number-slide1 {
+}
+
+.number-slide2 {
+}
+
+.number-slide3 {
+}
+
+.number-slide4 {
+}
+
+.number-slide5 {
+}
+
+.number-slide6 {
+}
