@@ -5,10 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Styles -->
-    <link rel="stylesheet" href="styles/hw1.css">
+    <link rel="stylesheet" href="styles/index.css">
     <link rel="stylesheet" href="styles/slider.css">
     <link rel="stylesheet" href="styles/global.css">
-    <link rel="stylesheet" href="/test.css"> <!-- REMOVE B4 LAUNCH!!!-->
+    <!-- <link rel="stylesheet" href="/test.css"> REMOVE B4 LAUNCH!!! -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/keen-slider@6.8.5/keen-slider.min.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/keen-slider@6.8.5/keen-slider.min.css" />
     <!-- Imports (fa, fonts, etc) - replace kit id -->
@@ -16,6 +16,7 @@
     <!-- Scripts -->
     <script src="script.js" defer></script>
     <title>HeatWave Esports</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 </head>
 
 <body>
@@ -30,7 +31,7 @@
                         src="media/icons/tiktok-svgrepo-com.svg" alt="Tiktok Logo"></a>
                 <a href="https://www.twitch.tv/heatwavesports" target="_blank"><img
                         src="media/icons/twitch-svgrepo-com.svg" alt="Twitch Logo"></a>
-                <a href="https://twitter.com/heatwave_e" target="_blank"><img src="/media/icons/twitter-svgrepo-com.svg"
+                <a href="https://twitter.com/heatwave_e" target="_blank"><img src="media/icons/twitter-svgrepo-com.svg"
                         alt="Twitter Logo"></a>
                 <a href="https://www.twitch.tv/heatwavesports" target="_blank"><img
                         src="media/icons/youtube-svgrepo-com.svg" alt="Youtube Logo"></a>
@@ -39,7 +40,7 @@
         <div class="main-page">
             <nav class="top-nav">
                 <div id="top-nav-content">
-                    <a id="top-nav-logo" href="#home"><img src="/media/logos/Logo.png" alt="HeatWave Esports Logo"></a>
+                    <a id="top-nav-logo" href="#home"><img src="media/logos/Logo.png" alt="HeatWave Esports Logo"></a>
                     <a id="top-nav-link" href="">NEWS</a>
                     <a id="top-nav-link" href="">MATCHES</a>
                     <a id="top-nav-link" href="">EVENTS</a>
@@ -56,7 +57,8 @@
                     </button>
                 </div>
                 <div class="roster-brief">
-                    <h2>Our Rosters</h2>
+                    <div>
+                    <h2 class="roster-header">Our Rosters</h2>
                     <div id="my-keen-slider" class="keen-slider">
                         <div class="keen-slider__slide number-slide1"><a href="#">
                                 <img src="./media/logos/64b9c9ba553ad5cdddb97dd0_Game=CS.webp">
@@ -73,7 +75,7 @@
                             </a></div>
                         <div class="keen-slider__slide number-slide5"><a href="#">
                                 <img src="./media/logos/64b9c9ba553ad5cdddb97dca_Game=Valorant.webp">
-                            </a>></div>
+                            </a></div>
                     </div>
                     <script src="https://cdn.jsdelivr.net/npm/keen-slider@6.8.5/keen-slider.min.js"></script>
                     <script>
@@ -86,9 +88,24 @@
                             },
                         })
                     </script>
+                    </div>
                 </div>
-                <div>
-                    <!-- latest video Yt -->
+                <div class="yt-embed-container">
+                    <div class="yt-embed-info">
+                        <span id="yt-embed-span-1">
+                            <img src="media/icons/youtube-svgrepo-com.svg" alt="Youtube Logo"><h2>YouTube</h2>
+                        </span>
+                        <span id="yt-embed-span-2">
+                            <h1>Highlights</h1>
+                        </span>
+                        <span id="yt-embed-span-3">
+                            <p>Check out our latest YouTube video!</p>
+                        </span>
+                    </div>
+                    <div class="yt-embed-video">
+                        <iframe width="800" height="450" src="https://www.youtube.com/embed/ypaqc8G0TS8?si=o99849nwRXIjtImK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <!-- <iframe frameborder="0" class="latest-video-embed" vnum="0" width="600" height="640" allowfullscreen></iframe> -->
+                    </div>
                 </div>
                 <footer class="page-footer">
                     <div class="popular-container">
@@ -109,6 +126,7 @@
             </main>
         </div>
     </div>
+    <script src="main.js" ></script>
 </body>
 
 </html>

@@ -1,21 +1,19 @@
 .roster-brief{
-    margin: 6rem 0 0 0;
+    margin: 6rem 0 0 1rem;
     /* padding: 0 0 2rem .5rem; */
 }
 
-.roster-brief > h2{
+.roster-header{
     font-size: 2rem;
     background: radial-gradient(circle, rgb(255, 255, 255), #3ab2f8);
     filter: drop-shadow(10px 0px 20px #a3eaff);
     background-clip: text;
     color: transparent;
-    animation: header-grad 8s ease-in-out infinite; 
+    animation: header-grad 6s ease-in-out infinite; 
     /* ^ global.css header-animation */
     background-size: 200% 200%;
     padding-left: 1rem;
 }
-.roster-brief> 
-
 .keen-slider{
     padding-left: 1rem;
     width: 90%;
@@ -24,7 +22,7 @@
 
 .keen-slider__slide > img{
     height: fit-content;
-    width: 70%;
+    width: 65%;
 }
 
 .keen-slider__slide > a {
@@ -41,14 +39,15 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 10rem;
-    padding: 60px;
+    height: 15rem;
+    padding: 30px;
     background: rgb(162,162,162);
     background: radial-gradient(circle, rgb(65, 65, 65) 0%, rgba(0,0,0,1) 100%);
     border-radius: 2rem;
+
 }
 
-.number-slide1 {
+/* .number-slide1 {
 }
 
 .number-slide2 {
@@ -64,4 +63,4 @@
 }
 
 .number-slide6 {
-}
+} */
