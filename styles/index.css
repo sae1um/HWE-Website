@@ -248,6 +248,11 @@
     flex-direction: column;
     gap: .5rem;
 }
+
+#popular-container-items > a{
+    cursor: pointer;
+}
+
 #copy-button{
     background-color: black;
     border: none;
